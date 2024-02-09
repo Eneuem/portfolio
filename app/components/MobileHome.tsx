@@ -19,7 +19,7 @@ const MobileHome: React.FC = () => {
                     <img className="w-14 h-20 left-[42.18px] top-[24.10px] absolute border border-indigo-700" src="https://via.placeholder.com/52x78" />
                     <img className="w-14 h-20 left-[1px] top-[65.27px] absolute origin-top-left -rotate-90 border border-indigo-700" src="https://via.placeholder.com/52x78" />
                 </div>
-                <Image src="/avatar.png" alt="Logo" width={326} height={326} />
+                <Image src="/avatar.png" alt="Avatar" width={326} height={326} />
                 <div className="w-14 h-14 left-[254.62px] top-[234.75px] absolute flex-col justify-between items-start inline-flex">
                     <div className="self-stretch justify-between items-start inline-flex">
                         {Array(5).fill(null).map((_, index) => (
@@ -43,6 +43,10 @@ const MobileHome: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <div className="w-96 h-9 p-2 bg-teal-900 border border-gray-400 justify-start items-center gap-2.5 inline-flex">
+                        <div className="w-4 h-4 bg-indigo-700 border border-indigo-700" />
+                        <div><span className="text-gray-400 text-base font-medium">Currently working on </span><span className="text-white text-base font-semibold font-['Fira Code']">Portfolio</span></div>
+                    </div>
         </div>
 
 

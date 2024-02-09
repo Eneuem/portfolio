@@ -11,8 +11,7 @@ const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
 
   return (
-    <header className="bg-background p-4 flex justify-between items-center">
-      {/* Utilisation de Image de Next.js pour l'image optimisée */}
+    <header className="bg-background p-4 flex justify-between items-center md:px-20">
       <Image src="/eneuemlogowhite.png" alt="Logo" width={96} height={24} />
       {menuOpen && (
         <aside className="fixed inset-0 bg-gray-800 bg-opacity-95 z-50 flex justify-end">
@@ -29,9 +28,19 @@ const Header: React.FC = () => {
           </div>
         </aside>
       )}
-      <IconButton className="z-50 text-secondary" onClick={() => setMenuOpen(!menuOpen)}>
+      <IconButton className="md:hidden z-50 text-secondary" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? <CloseIcon /> : <MenuIcon />}
       </IconButton>
+      <div className='hidden md:flex gap-6'>
+      <Link href="/" passHref className="text-secondary text-xl leading-8" onClick={() => window.location.reload()}><span className="text-primary">#</span>home
+            </Link>
+            <Link href="/works" passHref className="text-secondary text-xl leading-8"><span className="text-primary">#</span>works
+            </Link>
+            <Link href="/about-me" passHref className="text-secondary text-xl leading-8"><span className="text-primary">#</span>about me
+            </Link>
+            <Link href="/contact" passHref className="text-secondary text-xl leading-8"><span className="text-primary">#</span>contact
+            </Link>
+      </div>
     </header>
   );
 };
