@@ -15,7 +15,7 @@ const Header: React.FC = () => {
       {/* Utilisation de Image de Next.js pour l'image optimisée */}
       <Image src="/eneuemlogowhite.png" alt="Logo" width={96} height={24} />
       {menuOpen && (
-        <aside className="fixed inset-0 bg-gray-800 bg-opacity-90 z-50 flex justify-end">
+        <aside className="fixed inset-0 bg-gray-800 bg-opacity-95 z-50 flex justify-end">
           <div className="w-full h-full flex flex-col pl-4 gap-y-8 justify-center text-white">
             {/* Utilisation de Link de Next.js pour la navigation */}
             <Link href="/" passHref className="text-secondary text-xl leading-8" onClick={() => window.location.reload()}><span className="text-primary">#</span> home
