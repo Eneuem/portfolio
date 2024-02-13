@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
-import Header from './components/header';
 import MobileHome from './components/MobileHome';
 import DesktopHome from './components/DesktopHome';
 
@@ -24,7 +23,6 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <Header />
       {isMobile ? <MobileHome /> : <DesktopHome />}
     </>
   );

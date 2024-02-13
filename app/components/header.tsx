@@ -15,15 +15,14 @@ const Header: React.FC = () => {
       <Image src="/eneuemlogowhite.png" alt="Logo" width={96} height={24} />
       {menuOpen && (
         <aside className="fixed inset-0 bg-gray-800 bg-opacity-95 z-50 flex justify-end">
-          <div className="w-full h-full flex flex-col p-4 gap-y-8 justify-center text-white">
-            {/* Utilisation de Link de Next.js pour la navigation */}
-            <Link href="/" passHref className="text-secondary text-xl leading-8" onClick={() => window.location.reload()}><span className="text-primary">#</span> home
+          <div className="w-full h-full flex flex-col p-4 gap-y-8 justify-centertext-white">
+            <Link href="/" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span> home
             </Link>
-            <Link href="/works" passHref className="text-secondary text-xl leading-8"><span className="text-primary">#</span> works
+            <Link href="/projects" passHref className="text-secondary text-xl leading-8  hover:text-white transition-all"><span className="text-primary">#</span> works
             </Link>
-            <Link href="/about-me" passHref className="text-secondary text-xl leading-8"><span className="text-primary">#</span> about me
+            <Link href="/about-me" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span> about me
             </Link>
-            <Link href="/contact" passHref className="text-secondary text-xl leading-8"><span className="text-primary">#</span> contact
+            <Link href="/contact" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span> contact
             </Link>
           </div>
         </aside>
@@ -32,9 +31,9 @@ const Header: React.FC = () => {
         {menuOpen ? <CloseIcon /> : <MenuIcon />}
       </IconButton>
       <div className='hidden md:flex gap-6'>
-      <Link href="/" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all" onClick={() => window.location.reload()}><span className="text-primary">#</span>home
+      <Link href="/" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span>home
             </Link>
-            <Link href="/works" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all "><span className="text-primary">#</span>works
+            <Link href="/projects" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all "><span className="text-primary">#</span>works
             </Link>
             <Link href="/about-me" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span>about me
             </Link>

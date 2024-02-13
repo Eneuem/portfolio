@@ -1,4 +1,6 @@
+import React from 'react';
 import type { Metadata } from "next";
+import Header from "./components/header"; 
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
 
@@ -16,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={firaCode.className}>{children}</body>
+      <body className={firaCode.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
