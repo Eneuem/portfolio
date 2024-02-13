@@ -11,7 +11,7 @@ const Projects: React.FC<{ maxProjects?: number, includeSmallProjects?: boolean,
     const displayedProjects = maxProjects ? projects.slice(0, maxProjects) : projects;
 
     return (
-        <div className="flex flex-col m-auto mt-20 justify-around w-[76%]">
+        <div className="flex flex-col m-auto mt-20 justify-around w-[76%] py-8">
             <div className="flex justify-between ">
                 <div className="items-center gap-4 inline-flex ">
                     <div className="items-start flex gap-5">

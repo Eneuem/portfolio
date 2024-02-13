@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const MobileHome: React.FC = () => {
     return (
-        <div className="w-auto pt-10 pl-16 flex flex-col">
+        <div className="w-[100%] pt-10 pl-16 flex flex-col overflow-x-hidden">
             <span className="text-white text-3xl font-semibold">Naïm Chelbat,</span>
             <span className="text-indigo-700 text-3xl font-semibold">Front-end developer,</span>
             <span className="text-white text-3xl font-light">Brussels</span>

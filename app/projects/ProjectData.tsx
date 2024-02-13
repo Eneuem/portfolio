@@ -18,7 +18,7 @@
         {
             title: "Portfolio",
             description: "What you are currently looking at",
-            technologies: ["React", "NextJS", "Tailwindcss", "Figma"],
+            technologies: ["React", "NextJS", "Tailwindcss", "OOP"],
             status: "Live",
             imageUrl: "/drugstore.png",
             projectUrl: "https://eneuem.xyz"
@@ -39,13 +39,13 @@
             title : "Twitter Clone - school project",
             description : "Blogchain - Focused on back-end development, team work & management",
             technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL", "API", "VITE"],
-            projectUrl : "https://eneuem.xyz/chainblog"
+            projectUrl : "https://eneuem.xyz/chainblog/front"
         },
         {
             title : "Movies management - school project",
             description : "Quadra - Focused on back-end development, team work & management",
             technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL", "API"],
-            projectUrl : "https://eneuem.xyz/quadra"
+            projectUrl : "https://cryptobel.org/quadra"
         },
         {
             title : "nftia.be",

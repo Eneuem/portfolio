@@ -1,27 +1,30 @@
-'use client'
+'use client';
 
 import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer: React.FC = () => {
-    return (
+  const currentYear = new Date().getFullYear();
 
-<div className="flex flex-col w-[76%] h-auto m-auto py-8 justify-around items-center gap-8">
-  <div className="flex justify-start items-center gap-12">
-    <div className="w-auto justify-between items-start flex">
-      <div className="justify-start items-start gap-4">
-        <div className="justify-start items-center gap-6 inline-flex">
-          <img className="w-24 h-6" src="/eneuemlogowhite.png" />
+  return (
+    <footer className="flex flex-col w-[76%] h-auto m-auto pt-8 md:py-8 justify-around items-center gap-8">
+      <div className="flex justify-between items-center w-full">
+        <div className="flex flex-col items-center gap-4">
+          <div className='flex items-end'>
+          <img className="hidden md:flex w-24 h-6" src="/eneuemlogowhite.png" alt="Logo" />
           <div className="text-gray-400 text-base font-normal">naim.chelbat@gmail.com</div>
+          </div>
+          <div>
+            <div className="text-white text-base font-normal">Front-end developer - Learning Fullstack</div>
+          </div>
         </div>
-        <div className="text-white text-base font-normal">Front-end developer - Learning Fullstack</div>
+        <div className="flex items-center gap-4">
+          <LinkedInIcon className="text-white" />
+        </div>
       </div>
-    </div>
-  </div>
-  <div className="w-80 text-gray-400 text-base font-normal">© Copyright 2022. Made by Eneuem</div>
-
-</div>
-);
+      <div className="w-full text-center text-gray-400 text-base font-normal">© {currentYear}. Made by Eneuem</div>
+    </footer>
+  );
 };
 
 export default Footer;
