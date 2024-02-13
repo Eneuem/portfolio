@@ -20,7 +20,7 @@ const Header: React.FC = () => {
             </Link>
             <Link href="/projects" passHref className="text-secondary text-xl leading-8  hover:text-white transition-all"><span className="text-primary">#</span> works
             </Link>
-            <Link href="/about-me" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span> about me
+            <Link href="/aboutMe" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span> about me
             </Link>
             <Link href="/contact" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span> contact
             </Link>
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
             </Link>
             <Link href="/projects" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all "><span className="text-primary">#</span>works
             </Link>
-            <Link href="/about-me" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span>about me
+            <Link href="/aboutMe" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span>about me
             </Link>
             <Link href="/contact" passHref className="text-secondary text-xl leading-8 hover:text-white transition-all"><span className="text-primary">#</span>contact
             </Link>

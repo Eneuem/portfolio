@@ -15,8 +15,8 @@ interface Project {
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
-    <div className="w-80 h-96 border border-gray-400 flex flex-col justify-start items-start">
-      <Image width={320} height={208} className="border-b border-gray-400" src={project.imageUrl} alt={project.title} />
+    <div className="w-96 h-96 border border-gray-400 flex flex-col justify-start items-start">
+      <Image width={384} height={250} className="border-b border-gray-400" src={project.imageUrl} alt={project.title} />
       <div className="self-stretch p-2 flex justify-start items-start gap-2">
         {project.technologies.map((tech, index) => (
           <div key={index} className="text-gray-400 text-base font-normal">{tech}</div>

@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Projects from '../projects/page';
+import About from '../aboutMe/page';
 
 const DesktopHome: React.FC = () => {
     return (
@@ -21,8 +22,8 @@ const DesktopHome: React.FC = () => {
                 {/* IMAGE */}
                 <div className="w-96 h-96 relative">
                     <div className="w-28 h-28 left-[6px] top-[125.60px] absolute">
-                        <img className="w-14 h-20 left-[42.18px] top-[24.10px] absolute border border-indigo-700" src="https://via.placeholder.com/52x78" />
-                        <img className="w-14 h-20 left-[1px] top-[65.27px] absolute origin-top-left -rotate-90 border border-indigo-700" src="https://via.placeholder.com/52x78" />
+                        {/* <img className="w-14 h-20 left-[42.18px] top-[24.10px] absolute border border-indigo-700" src="https://via.placeholder.com/52x78" />
+                        <img className="w-14 h-20 left-[1px] top-[65.27px] absolute origin-top-left -rotate-90 border border-indigo-700" src="https://via.placeholder.com/52x78" /> */}
                     </div>
                     <Image src="/avatar.png" alt="Avatar" width={384} height={384} />
                     <div className="w-14 h-14 left-[280.62px] top-[300.75px] absolute flex-col justify-between items-start inline-flex">
@@ -54,13 +55,14 @@ const DesktopHome: React.FC = () => {
                 </div>
             </div>
             <br />
-            <div className="w-2/3 h-auto m-auto mt-10 p-8 border border-gray-400 justify-start items-start gap-2.5 inline-flex relative">
+            <div className="w-[76%] h-auto m-auto mt-10 p-8 border border-gray-400 justify-center items-center gap-2.5 inline-flex relative">
                 <div className="text-white text-2xl font-medium">"You should consider hiring Naïm before it’s too late"</div>
             </div>
             {/* <div className="w-[15%] h-auto m-auto p-8 border border-gray-400 justify-start items-start absolute bottom-0 right-0">
                 <div className="text-white text-2xl font-thin">- Nobody</div>
             </div> */}
             <Projects maxProjects={3} includeSmallProjects={false} showViewAllButton={true} />
+            <About showViewAllButton={true} includeAboutMe={false} />
         </div>
 
 

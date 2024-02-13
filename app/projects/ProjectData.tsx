@@ -16,12 +16,12 @@
             projectUrl: "https://eneuem.xyz/lepilogue"
         },
         {
-            title: "Drugstore Bxl",
-            description: "Webshop for Drugstore Bxl",
-            technologies: ["Wordpress", "Woocommerce", "Figma"],
+            title: "Portfolio",
+            description: "What you are currently looking at",
+            technologies: ["React", "NextJS", "Tailwindcss", "Figma"],
             status: "Live",
             imageUrl: "/drugstore.png",
-            projectUrl: "https://drugstorebruxelles.com"
+            projectUrl: "https://eneuem.xyz"
         },
         {
             title: "Drugstore Bxl",
@@ -31,33 +31,26 @@
             imageUrl: "/drugstore.png",
             projectUrl: "https://drugstorebruxelles.com"
         },
-        {
-            title: "Drugstore Bxl",
-            description: "Webshop for Drugstore Bxl",
-            technologies: ["Wordpress", "Woocommerce", "Figma"],
-            status: "Live",
-            imageUrl: "/drugstore.png",
-            projectUrl: "https://drugstorebruxelles.com"
-        },
+
     ];
 
     export const SmallProjects = [
         {
-            title : "SOSCrypto - Cryptobel",
-            description : "FAQ Web3 for Belgian Citizens",
-            technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL"],
-            projectUrl : "https://soscrypto.be"
+            title : "Twitter Clone - school project",
+            description : "Blogchain - Focused on back-end development, team work & management",
+            technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL", "API", "VITE"],
+            projectUrl : "https://eneuem.xyz/chainblog"
         },
         {
-            title : "SOSCrypto - Cryptobel",
-            description : "FAQ Web3 for Belgian Citizens",
-            technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL"],
-            projectUrl : "https://soscrypto.be"
+            title : "Movies management - school project",
+            description : "Quadra - Focused on back-end development, team work & management",
+            technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL", "API"],
+            projectUrl : "https://eneuem.xyz/quadra"
         },
         {
-            title : "SOSCrypto - Cryptobel",
-            description : "FAQ Web3 for Belgian Citizens",
-            technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL"],
+            title : "nftia.be",
+            description : "Contributor - Wordpress layout & configuration",
+            technologies : ["Wordpress", "Plugins", "CSS"],
             projectUrl : "https://soscrypto.be"
         }
     ]
