@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import SkillSection from './skillsCard';
 import skillsData from './skillsData';
 import HobbiesSection from './HobbiesCard';
@@ -25,7 +26,7 @@ const About: React.FC<{ showViewAllButton?: boolean, includeAboutMe?: boolean }>
             Hello, i’m Naïm!<br /><br />I use to make website as a kid. I discovered HTML CSS and php shortly after to dev my owns Warhammer & LOTR fan-pages. <br /><br />Since then, I never stopped learning and making website from scratch or with Wordpress, Wix, and others tools.    In 2023 I started an intensive learning at Ecole 19 then at BeCode where I learned a lot about Frameworks, Databases & API.          </div>
         </div>
         <div className="flex w-auto h-auto">
-          <img className="hidden md:flex" src="/codeur.png" />
+          <Image className="hidden md:block" src="/codeur.png" alt="Hello World" width={300} height={300} />
         </div>
         </div>
         </>

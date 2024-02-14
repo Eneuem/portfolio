@@ -15,8 +15,8 @@ const Footer: React.FC = () => {
       <div className="flex justify-between items-center w-full">
         <div className="flex flex-col items-center gap-4">
           <div className='flex justify-between items-end gap-6'>
-          <img className="hidden md:flex w-24 h-6" src="/eneuemlogowhite.png" alt="Logo" />
-          <div className="text-gray-400 text-base font-normal">naim.chelbat@gmail.com</div>
+            <Image className="hidden md:flex" src="/eneuemlogowhite.png" alt="Logo" width={96} height={24} />
+            <div className="text-gray-400 text-base font-normal">naim.chelbat@gmail.com</div>
           </div>
           <div>
             <div className="text-white text-base font-normal">Front-end developer - Learning Fullstack</div>
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex items-center gap-8 text-white text-xl">
           <Link rel="noopener noreferrer" href="https://www.linkedin.com/in/na%C3%AFm-chelbat-83723b56/">
-          <SiLinkedin className="hover:scale-125" />
+            <SiLinkedin className="hover:scale-125" />
           </Link>
           <SiGithub className="hover:scale-125" />
           <SiFigma className="hover:scale-125" />

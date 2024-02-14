@@ -56,7 +56,7 @@ const DesktopHome: React.FC = () => {
             </div>
             <br />
             <div className="w-[76%] h-auto m-auto mt-10 p-8 border border-gray-400 justify-center items-center gap-2.5 inline-flex relative">
-                <div className="text-white text-2xl font-medium">"You should consider hiring Naïm before it’s too late"</div>
+                <div className="text-white text-2xl font-medium">You should consider hiring Naïm before it’s too late</div>
             </div>
             {/* <div className="w-[15%] h-auto m-auto p-8 border border-gray-400 justify-start items-start absolute bottom-0 right-0">
                 <div className="text-white text-2xl font-thin">- Nobody</div>
