@@ -4,6 +4,8 @@ import React from 'react';
 import Link from 'next/link';
 import SkillSection from './skillsCard';
 import skillsData from './skillsData';
+import HobbiesSection from './HobbiesCard';
+import HobbiesData from './HobbiesData';
 
 // Ajout des props pour gérer l'affichage conditionnel
 const About: React.FC<{ showViewAllButton?: boolean, includeAboutMe?: boolean }> = ({ showViewAllButton = false, includeAboutMe = true }) => {
@@ -51,6 +53,17 @@ const About: React.FC<{ showViewAllButton?: boolean, includeAboutMe?: boolean }>
         <SkillSection title="Frameworks" skills={skillsData.frameworks} />
         <SkillSection title="Other" skills={skillsData.others} />
         <SkillSection title="Tools" skills={skillsData.tools} />
+      </div>
+      <div className="flex flex-col mt-10">
+        <div className="justify-start items-start flex pb-6 gap-5">
+          <div className="text-indigo-700 text-3xl font-medium">#</div>
+          <div className="text-white text-3xl font-medium">facts</div>
+          <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
+          <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
+        </div>
+      </div>
+      <div>
+        <HobbiesSection hobbies={HobbiesData.hobbies} />
       </div>
     </div>
   );

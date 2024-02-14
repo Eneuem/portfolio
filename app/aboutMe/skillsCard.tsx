@@ -2,13 +2,10 @@
 
 import React from 'react';
 
-// Define the interface outside the component for clarity and reusability.
 interface SkillCardProps {
   title: string;
   skills: string[];
 }
-
-// Use the SkillCardProps interface to type the component props.
 const SkillSection: React.FC<SkillCardProps> = ({ title, skills }) => {
   return (
     <div className="w-44 h-auto py-2 border border-gray-400 flex-col justify-start items-start gap-2">

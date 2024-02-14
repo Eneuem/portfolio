@@ -35,7 +35,6 @@ const Projects: React.FC<{ maxProjects?: number, includeSmallProjects?: boolean,
                 ))}
             </div> */}
             <div className="mt-10 flex flex-col md:flex-row gap-10">
-                {/* Affichage des ProjectCard */}
                 {displayedProjects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
