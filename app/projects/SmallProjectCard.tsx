@@ -22,7 +22,7 @@ const SmallProjectCard: React.FC<{ project: SmallProject }> = ({ project }) => {
           <div className="text-white text-2xl font-medium">{project.title}</div>
           <div className="text-gray-400 text-base font-normal">{project.description}</div>
         </div>
-        <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 border border-gray-400 flex justify-center items-end text-gray-400 text-base font-medium">
+        <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 border border-gray-400 flex justify-center items-end text-gray-400 text-base font-medium hover:bg-gray-400 hover:text-background transition-all">
           Visit
         </a>
       </div>

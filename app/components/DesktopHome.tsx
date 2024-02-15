@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Projects from '../projects/page';
-import About from '../aboutMe/page';
+import ProjectsSum from '../components/projects';
+import Skills from '../components/skills';
 
 const DesktopHome: React.FC = () => {
     return (
@@ -61,8 +61,8 @@ const DesktopHome: React.FC = () => {
             {/* <div className="w-[15%] h-auto m-auto p-8 border border-gray-400 justify-start items-start absolute bottom-0 right-0">
                 <div className="text-white text-2xl font-thin">- Nobody</div>
             </div> */}
-            <Projects />
-            <About />
+            <ProjectsSum />
+            <Skills />
         </div>
 
 

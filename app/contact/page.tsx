@@ -1,36 +1,70 @@
 'use client';
 
 import React from 'react';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { SiDiscord } from "react-icons/si";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaBtc } from "react-icons/fa6";
+import { TbCurrencySolana } from "react-icons/tb";
+import { SiThreads } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
 
 const ContactForm: React.FC = () => {
     return (
         <>
             <div className="flex flex-col w-[76%] h-auto m-auto py-8 gap-8">
-                <div className="flex">
+                <div className="flex gap-5">
                     <div className="text-indigo-700 text-3xl font-semibold">/</div>
                     <div className="text-white text-3xl font-semibold">contacts</div>
+                    <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
+                    <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
                 </div>
-                <div className="w-96 h-36 relative">
-                    <div className="w-96 left-0 top-0 absolute text-gray-400 text-base font-medium leading-relaxed">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</div>
-                    <div className="w-96 h-36 left-[622px] top-0 absolute">
-                        <div className="w-auto h-36 p-4 left-[197px] top-0 absolute border border-gray-400 flex-col justify-start items-start gap-4 inline-flex">
-                            <div className="text-white text-base font-semibold">Message me here</div>
-                            <div className="flex-col justify-start items-start gap-2 flex">
-                                <div className="justify-start items-center gap-1 inline-flex">
-                                    <div className="w-8 h-8 pl-0.5 pr-1 py-1.5 justify-center items-center flex" />
-                                    <div className="text-gray-400 text-base font-normal">eneuem</div>
-                                </div>
-                                <div className="justify-start items-center gap-1 inline-flex">
-                                    <div className="w-8 h-8 px-1 pt-1.5 pb-2 justify-center items-center flex" />
-                                    <div className="text-gray-400 text-base font-normal">naim.chelbat@gmail.com</div>
-                                </div>
+                <div className="flex flex-col md:flex-row gap-2">
+                    <div className="flex text-gray-400 text-base items-start font-medium leading-relaxed">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</div>
+                    <div className="w-auto h-auto">
+                        <div className="w-auto h-auto p-4 border border-gray-400 flex-col justify-start items-start gap-2 inline-flex mt-1">
+                            <div className="text-white text-base font-medium">Message me here</div>
+                            <div className="flex items-center gap-2">
+                                <SiDiscord />
+                                <div className="text-gray-400 text-base font-normal">eneuem</div>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <AiOutlineMail />
+                                <div className="text-gray-400 text-base font-normal">naim.chelbat@gmail.com</div>
                             </div>
                         </div>
-                        <div className="w-auto h-20 p-4 left-0 top-0 absolute border border-gray-400 flex-col justify-start items-start gap-2 inline-flex">
+                        <div className="w-auto h-auto p-4 border border-gray-400 flex-col justify-start items-start gap-2 inline-flex mt-1">
                             <div className="text-white text-base font-medium">Support me here</div>
-                            <div className="text-gray-400 text-base font-normal">4149500120690030</div>
+                            <div className="flex items-center gap-2">
+                                <FaBtc />
+                                <div className="text-gray-400 text-base font-normal">4149500120690030</div>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <TbCurrencySolana />
+                                <div className="text-gray-400 text-base font-normal">4149500120690030</div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div className="flex gap-5">
+                    <div className="text-indigo-700 text-3xl font-semibold">/</div>
+                    <div className="text-white text-3xl font-semibold">all-medias</div>
+                    <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
+                    <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
+                </div>
+                <div className="w-auto h-auto p-4 flex justify-center items-start gap-8 mt-1">
+                    <div className="flex items-center gap-2">
+                        <SiThreads />
+                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background">nembbm</div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <SiLinkedin />
+                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background">          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/na%C3%AFm-chelbat-83723b56/">naim-chelbat</a></div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <SiGithub />
+                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Eneuem">Eneuem</a></div>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
@@ -23,11 +22,15 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="flex items-center gap-8 text-white text-xl">
-          <Link rel="noopener noreferrer" href="https://www.linkedin.com/in/na%C3%AFm-chelbat-83723b56/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/na%C3%AFm-chelbat-83723b56/">
             <SiLinkedin className="hover:scale-125" />
-          </Link>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/Eneuem">
           <SiGithub className="hover:scale-125" />
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/file/3I2CyhhwdhvfqYqDpcFofM/ARTISTORY?type=design&node-id=0%3A1&mode=design&t=FA1s6nW1Jjvia5Rp-1">
           <SiFigma className="hover:scale-125" />
+          </a>
         </div>
       </div>
       <div className="w-full text-center text-gray-400 text-base font-normal">© {currentYear}. Made by Eneuem</div>

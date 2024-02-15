@@ -19,21 +19,10 @@ const Projects: React.FC = () => {
                         <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
                         <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
                     </div>
-                    <div className="justify-self-end">
-                  
-                    <Link className="text-white text-base font-medium border border-white p-2 hover:bg-white hover:text-background transition-all" href="/projects" passHref>
-                        View all
-                    </Link>     
-                
-                </div>
             </div>
             </div>
-            {/* <div className="mt-10 flex flex-col md:flex-row gap-10">
-                {displayedProjects.map((project, index) => (
-                    <ProjectCard key={index} project={project} />
-                ))}
-            </div> */}
-            <div className="mt-10 flex flex-col md:flex-row gap-10">
+
+            <div className="mt-10 flex flex-wrap gap-10">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}

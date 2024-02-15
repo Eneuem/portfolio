@@ -9,8 +9,8 @@
         },
         {
             title: "NEM - L'épilogue",
-            description: "Album promotion website",
-            technologies: ["REACT", "JS", "CSS"],
+            description: "Album promotion website that I made in HTML/CSS in 2023 then recoded it in React in 2024",
+            technologies: ["React", "JS", "CSS"],
             status: "Live",
             imageUrl: "/epilogue.png",
             projectUrl: "https://eneuem.xyz/lepilogue"
@@ -18,9 +18,9 @@
         {
             title: "Portfolio",
             description: "What you are currently looking at",
-            technologies: ["React", "NextJS", "Tailwindcss", "OOP"],
+            technologies: ["React", "NextJS", "Tailwindcss", "OOP", "Vercel"],
             status: "Live",
-            imageUrl: "/drugstore.png",
+            imageUrl: "/portfolio.png",
             projectUrl: "https://eneuem.xyz"
         },
         {
