@@ -42,8 +42,8 @@ const About: React.FC = () => {
         <SkillSection title="Languages" skills={skillsData.languages} />
         <SkillSection title="Databases" skills={skillsData.databases} />
         <SkillSection title="Frameworks" skills={skillsData.frameworks} />
-        <SkillSection title="Other" skills={skillsData.others} />
         <SkillSection title="Tools" skills={skillsData.tools} />
+        <SkillSection title="Other" skills={skillsData.others} />
       </div>
       <div className="flex flex-col mt-10">
         <div className="justify-start items-start flex pb-6 gap-5">

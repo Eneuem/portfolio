@@ -5,7 +5,7 @@
             technologies: ["PHP", "Tailwindcss", "jquery", "MYSQL"],
             status: "Live",
             imageUrl: "/soscrypto.png",
-            projectUrl: "https://soscrypto.be"
+            projectUrl: "https://cryptobel.org"
         },
         {
             title: "NEM - L'épilogue",

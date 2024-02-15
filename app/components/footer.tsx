@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </div>
-      <div className="w-full text-center text-gray-400 text-base font-normal">© {currentYear}. Made by Eneuem with <TbBrandNextjs /></div>
+      <div className="w-full flex justify-center items-center text-gray-400 text-base font-normal gap-2">© {currentYear}. Made with <TbBrandNextjs /></div>
     </footer>
   );
 };
