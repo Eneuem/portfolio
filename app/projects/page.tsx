@@ -1,4 +1,4 @@
-'use client';
+'use strict';
 
 import React from 'react';
 import ProjectCard from './ProjectCard'; 
@@ -6,9 +6,8 @@ import SmallProjectCard from './SmallProjectCard';
 import { projects, SmallProjects } from './ProjectData';
 import Link from 'next/link';
 
-const Projects: React.FC<{ maxProjects?: number, includeSmallProjects?: boolean, showViewAllButton?: boolean }> = ({ maxProjects, includeSmallProjects = true, showViewAllButton = false }) => {
+const Projects: React.FC = () => {
 
-    const displayedProjects = maxProjects ? projects.slice(0, maxProjects) : projects;
 
     return (
         <div className="flex flex-col m-auto mt-20 justify-around w-[76%] py-8">
@@ -21,11 +20,11 @@ const Projects: React.FC<{ maxProjects?: number, includeSmallProjects?: boolean,
                         <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
                     </div>
                     <div className="justify-self-end">
-                    {showViewAllButton && (
+                  
                     <Link className="text-white text-base font-medium border border-white p-2 hover:bg-white hover:text-background transition-all" href="/projects" passHref>
                         View all
                     </Link>     
-                )}
+                
                 </div>
             </div>
             </div>
@@ -35,11 +34,10 @@ const Projects: React.FC<{ maxProjects?: number, includeSmallProjects?: boolean,
                 ))}
             </div> */}
             <div className="mt-10 flex flex-col md:flex-row gap-10">
-                {displayedProjects.map((project, index) => (
+                {projects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
             </div>
-            {includeSmallProjects && (
                 <>
                     <div className="items-center gap-4 inline-flex mt-10">
                     <div className="items-start flex gap-5">
@@ -56,7 +54,6 @@ const Projects: React.FC<{ maxProjects?: number, includeSmallProjects?: boolean,
                         ))}
                     </div>
                 </>
-            )}
         </div>
     );
 };

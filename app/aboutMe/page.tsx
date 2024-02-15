@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, {useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import SkillSection from './skillsCard';
@@ -8,11 +8,9 @@ import skillsData from './skillsData';
 import HobbiesSection from './HobbiesCard';
 import HobbiesData from './HobbiesData';
 
-// Ajout des props pour gérer l'affichage conditionnel
-const About: React.FC<{ showViewAllButton?: boolean, includeAboutMe?: boolean }> = ({ showViewAllButton = false, includeAboutMe = true }) => {
+const About: React.FC = () => {
   return (
-    <div className="flex flex-col m-auto mt-20 justify-around w-[76%] py-8">
-      {includeAboutMe && (
+    <div className="flex flex-col m-auto mt-20 justify-around w-[76%] py-8">   
         <>
       <div className="flex">
         <div className="flex flex-col">
@@ -29,9 +27,7 @@ const About: React.FC<{ showViewAllButton?: boolean, includeAboutMe?: boolean }>
           <Image className="hidden md:block" src="/codeur.png" alt="Hello World" width={300} height={300} />
         </div>
         </div>
-        </>
-        )}
-     
+        </> 
       <div className="flex flex-col mt-10">
         <div className="justify-start items-start flex pb-6 gap-5">
           <div className="text-indigo-700 text-3xl font-medium">#</div>
@@ -39,13 +35,11 @@ const About: React.FC<{ showViewAllButton?: boolean, includeAboutMe?: boolean }>
           <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
           <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
         
-        {showViewAllButton && (
           <div className="justify-self-end">
             <Link className="text-white text-base font-medium border border-white p-2 hover:bg-white hover:text-background transition-all" href="/aboutMe" passHref>
               View all
             </Link>
           </div>
-        )}
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-start gap-4">
