@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -33,7 +34,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </div>
-      <div className="w-full text-center text-gray-400 text-base font-normal">© {currentYear}. Made by Eneuem</div>
+      <div className="w-full text-center text-gray-400 text-base font-normal">© {currentYear}. Made by Eneuem with <TbBrandNextjs /></div>
     </footer>
   );
 };
