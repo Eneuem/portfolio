@@ -21,10 +21,10 @@ const Header: React.FC = () => {
       {menuOpen && (
         <aside className="fixed inset-0 bg-gray-800 bg-opacity-95 z-50 flex justify-end">
           <div className="w-full h-full flex flex-col p-4 gap-y-8 justify-center text-white">
-            <Link href="/"><a className={`${isActive('/')} text-xl leading-8`}><span className="text-primary">#</span> home</a></Link>
-            <Link href="/projects"><a className={`${isActive('/projects')} text-xl leading-8`}><span className="text-primary">#</span> works</a></Link>
-            <Link href="/aboutMe"><a className={`${isActive('/aboutMe')} text-xl leading-8`}><span className="text-primary">#</span> about me</a></Link>
-            <Link href="/contact"><a className={`${isActive('/contact')} text-xl leading-8`}><span className="text-primary">#</span> contact</a></Link>
+            <Link href="/" className={`${isActive('/')} text-xl leading-8`}><span className="text-primary">#</span>home</Link>
+            <Link href="/projects" className={`${isActive('/projects')} text-xl leading-8`}><span className="text-primary">#</span>works</Link>
+            <Link href="/aboutMe" className={`${isActive('/aboutMe')} text-xl leading-8`}><span className="text-primary">#</span>about me</Link>
+            <Link href="/contact" className={`${isActive('/contact')} text-xl leading-8`}><span className="text-primary">#</span>contact</Link>
           </div>
         </aside>
       )}
@@ -32,10 +32,10 @@ const Header: React.FC = () => {
         {menuOpen ? <CloseIcon /> : <MenuIcon />}
       </IconButton>
       <div className='hidden md:flex gap-6'>
-        <Link href="/"><a className={`${isActive('/')} text-xl leading-8`}><span className="text-primary">#</span>home</a></Link>
-        <Link href="/projects"><a className={`${isActive('/projects')} text-xl leading-8`}><span className="text-primary">#</span>works</a></Link>
-        <Link href="/aboutMe"><a className={`${isActive('/aboutMe')} text-xl leading-8`}><span className="text-primary">#</span>about me</a></Link>
-        <Link href="/contact"><a className={`${isActive('/contact')} text-xl leading-8`}><span className="text-primary">#</span>contact</a></Link>
+        <Link href="/" className={`${isActive('/')} text-xl leading-8`}><span className="text-primary">#</span>home</Link>
+        <Link href="/projects" className={`${isActive('/projects')} text-xl leading-8`}><span className="text-primary">#</span>works</Link>
+        <Link href="/aboutMe" className={`${isActive('/aboutMe')} text-xl leading-8`}><span className="text-primary">#</span>about me</Link>
+        <Link href="/contact" className={`${isActive('/contact')} text-xl leading-8`}><span className="text-primary">#</span>contact</Link>
       </div>
     </header>
   );

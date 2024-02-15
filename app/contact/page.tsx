@@ -22,7 +22,7 @@ const ContactForm: React.FC = () => {
                 </div>
                 <div className="flex flex-col md:flex-row gap-2">
                     <div className="flex text-gray-400 text-base items-start font-medium leading-relaxed">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</div>
-                    <div className="w-auto h-auto">
+                    <div className="w-auto h-auto flex flex-col">
                         <div className="w-auto h-auto p-4 border border-gray-400 flex-col justify-start items-start gap-2 inline-flex mt-1">
                             <div className="text-white text-base font-medium">Message me here</div>
                             <div className="flex items-center gap-2">
