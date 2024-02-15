@@ -8,7 +8,6 @@ import { TbCurrencySolana } from "react-icons/tb";
 import { SiThreads } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
-import { SiFigma } from "react-icons/si";
 
 const ContactForm: React.FC = () => {
     return (
