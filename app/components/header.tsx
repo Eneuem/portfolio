@@ -28,9 +28,11 @@ const Header: React.FC = () => {
           </div>
         </aside>
       )}
-      <IconButton className="md:hidden z-50" onClick={() => setMenuOpen(!menuOpen)}>
+      <div className="md:hidden">
+      <IconButton className="z-50" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? <CloseIcon /> : <MenuIcon />}
       </IconButton>
+      </div>
       <div className='hidden md:flex gap-6'>
         <Link href="/" className={`${isActive('/')} text-xl leading-8`}><span className="text-primary">#</span>home</Link>
         <Link href="/projects" className={`${isActive('/projects')} text-xl leading-8`}><span className="text-primary">#</span>works</Link>
