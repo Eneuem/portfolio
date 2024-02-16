@@ -24,8 +24,6 @@ const DesktopHome: React.FC = () => {
                 {/* IMAGE */}
                 <div className="w-96 h-96 relative">
                     <div className="w-28 h-28 left-[6px] top-[125.60px] absolute">
-                        {/* <img className="w-14 h-20 left-[42.18px] top-[24.10px] absolute border border-indigo-700" src="https://via.placeholder.com/52x78" />
-                        <img className="w-14 h-20 left-[1px] top-[65.27px] absolute origin-top-left -rotate-90 border border-indigo-700" src="https://via.placeholder.com/52x78" /> */}
                     </div>
                     <Image src="/avatar.png" alt="Avatar" width={384} height={384} />
                     <div className="w-14 h-14 left-[280.62px] top-[300.75px] absolute flex-col justify-between items-start inline-flex">
@@ -58,9 +56,9 @@ const DesktopHome: React.FC = () => {
             </div>
             <br />
             <div className="w-[76%] h-auto m-auto mt-10 p-8 border border-gray-400 flex justify-center items-center gap-2.5 relative">
-                <div className="text-white text-2xl font-medium inline-flex gap-2 items-center"><BiSolidQuoteLeft />You should consider hiring Naïm before it’s too late<BiSolidQuoteRight /><span className="text-sm md:hidden self-end">Nobody</span></div>
-                <div className="hidden md:flex w-[15%] h-auto p-4 border border-gray-400 justify-start items-start absolute right-0 md:right-6 bottom-0 translate-y-2/3">
-                    <div className="text-white text-2xl font-thin">- Nobody</div>
+                <div className="text-white text-2xl font-medium inline-flex gap-2 items-center"><BiSolidQuoteLeft className="text-xl"/>You should consider hiring Naïm before it’s too late<BiSolidQuoteRight className="text-xl"/><span className="text-sm md:hidden self-end">Nobody</span></div>
+                <div className="hidden bg-teal-900 md:flex w-[15%] h-auto p-2 border border-gray-400 justify-start items-start absolute right-0 md:right-6 bottom-0 translate-y-2/3">
+                    <div className="text-white text-l font-thin flex self-end">- Nobody</div>
                 </div>
             </div>
 

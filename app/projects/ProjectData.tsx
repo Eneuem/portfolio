@@ -5,7 +5,7 @@
             technologies: ["PHP", "Tailwindcss", "jquery", "MYSQL"],
             status: "Live",
             imageUrl: "/soscrypto.png",
-            projectUrl: "https://cryptobel.org"
+            projectUrl: "https://soscrypto.be"
         },
         {
             title: "NEM - L'épilogue",
@@ -51,6 +51,6 @@
             title : "nftia.be",
             description : "Contributor - Wordpress layout & configuration",
             technologies : ["Wordpress", "Plugins", "CSS"],
-            projectUrl : "https://soscrypto.be"
+            projectUrl : "https://cryptobel.be"
         }
     ]

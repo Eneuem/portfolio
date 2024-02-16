@@ -18,7 +18,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
 <div className="w-96 h-auto flex flex-col justify-between border border-gray-400">
   <div>
     <Image width={384} height={250} className="border-b border-gray-400" src={project.imageUrl} alt={project.title} />
-    <div className="p-2 flex justify-start items-start gap-2">
+    <div className="p-2 flex justify-start items-start gap-2 bg-teal-900">
       {project.technologies.map((tech, index) => (
         <div key={index} className="text-gray-400 text-base font-normal">{tech}</div>
       ))}

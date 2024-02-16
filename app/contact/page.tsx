@@ -48,22 +48,24 @@ const ContactForm: React.FC = () => {
                 </div>
                 <div className="flex gap-5">
                     <div className="text-indigo-700 text-3xl font-semibold">/</div>
-                    <div className="text-white text-3xl font-semibold">all-medias</div>
+                    <div className="text-white text-3xl font-semibold">socials</div>
                     <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
                     <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
                 </div>
                 <div className="w-auto h-auto p-4 flex justify-center items-start gap-8 mt-1">
                     <div className="flex items-center gap-2">
                         <SiThreads />
-                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background">nembbm</div>
+                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background"><a target="_blank" rel="noopener noreferrer" href="https://www.threads.net/@nembbm" >nembbm</a></div>
                     </div>
                     <div className="flex items-center gap-2">
                         <SiLinkedin />
-                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background">          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/na%C3%AFm-chelbat-83723b56/">naim-chelbat</a></div>
+                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/na%C3%AFm-chelbat-83723b56/">naim-chelbat</a></div>
                     </div>
                     <div className="flex items-center gap-2">
                         <SiGithub />
-                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Eneuem">Eneuem</a></div>
+                        <div className="text-gray-400 text-base font-normal hover:bg-gray-400 hover:text-background">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Eneuem">Eneuem</a></div>
                     </div>
                 </div>
             </div>
