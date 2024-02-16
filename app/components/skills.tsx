@@ -17,7 +17,7 @@ const Skills: React.FC = () => {
       <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
       <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
 
-      <div className="justify-self-end">
+      <div className="justify-self-end inline-flex">
         <Link className="text-white text-base font-medium border border-white p-2 hover:bg-white hover:text-background transition-all" href="/aboutMe" passHref>
           View all
         </Link>

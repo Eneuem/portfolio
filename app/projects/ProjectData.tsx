@@ -45,12 +45,12 @@
             title : "Movies management - school project",
             description : "Quadra - Focused on back-end development, team work & management",
             technologies : ["PHP", "Tailwindcss", "jquery", "MYSQL", "API"],
-            projectUrl : "https://cryptobel.org/quadra"
+            projectUrl : "https://soscrypto.be/quadra"
         },
         {
-            title : "nftia.be",
+            title : "cryptobel.org",
             description : "Contributor - Wordpress layout & configuration",
             technologies : ["Wordpress", "Plugins", "CSS"],
-            projectUrl : "https://cryptobel.be"
+            projectUrl : "https://cryptobel.org"
         }
     ]
