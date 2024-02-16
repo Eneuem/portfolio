@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer className="flex flex-col w-[76%] h-auto m-auto pt-8 md:py-8 justify-around items-center gap-8">
-      <div className="flex justify-between items-center w-full">
+      <div className="flex-col md:flex-row justify-between items-center w-full">
         <div className="flex flex-col items-center gap-4">
           <div className='flex justify-between items-end gap-6'>
             <Image className="hidden md:flex" src="/eneuemlogowhite.png" alt="Logo" width={96} height={24} />
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
             <div className="text-white text-base font-normal">Front-end developer - Learning Fullstack</div>
           </div>
         </div>
-        <div className="flex items-center gap-8 text-white text-xl">
+        <div className="flex items-center justify-center gap-8 text-white text-xl pt-4">
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/na%C3%AFm-chelbat-83723b56/">
             <SiLinkedin className="hover:scale-125" />
           </a>

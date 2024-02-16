@@ -6,24 +6,25 @@ import DesktopHome from './components/DesktopHome';
 
 const Home: React.FC = () => {
 
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
+  // useEffect(() => {
     
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
+  //   const handleResize = () => {
+  //     setIsMobile(window.innerWidth <= 768);
+  //   };
 
-    handleResize();
+  //   handleResize();
 
-    window.addEventListener('resize', handleResize);
+  //   window.addEventListener('resize', handleResize);
 
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  //   return () => window.removeEventListener('resize', handleResize);
+  // }, []);
 
   return (
     <>
-      {isMobile ? <MobileHome /> : <DesktopHome />}
+      {/* {isMobile ? <MobileHome /> : <DesktopHome />} */}
+      <DesktopHome />
     </>
   );
 };

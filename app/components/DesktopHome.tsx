@@ -4,10 +4,12 @@ import React from 'react';
 import Image from 'next/image';
 import ProjectsSum from '../components/projects';
 import Skills from '../components/skills';
+import { BiSolidQuoteLeft } from "react-icons/bi";
+import { BiSolidQuoteRight } from "react-icons/bi";
 
 const DesktopHome: React.FC = () => {
     return (
-        <div className="pt-10 p-4 flex flex-col">
+        <div className="pt-10 p-4 flex flex-col overflow-x-hidden">
             {/* TITLE */}
             <div className="flex justify-between w-[76%] m-auto">
                 <div className="flex flex-col pt-16">
@@ -55,14 +57,18 @@ const DesktopHome: React.FC = () => {
                 </div>
             </div>
             <br />
-            <div className="w-[76%] h-auto m-auto mt-10 p-8 border border-gray-400 justify-center items-center gap-2.5 inline-flex relative">
-                <div className="text-white text-2xl font-medium">You should consider hiring Naïm before it’s too late</div>
+            <div className="w-[76%] h-auto m-auto mt-10 p-8 border border-gray-400 flex justify-center items-center gap-2.5 relative">
+                <div className="text-white text-2xl font-medium inline-flex gap-2 items-center"><BiSolidQuoteLeft />You should consider hiring Naïm before it’s too late<BiSolidQuoteRight /><span className="text-sm md:hidden self-end">Nobody</span></div>
+                <div className="hidden md:flex w-[15%] h-auto p-4 border border-gray-400 justify-start items-start absolute right-0 md:right-6 bottom-0 translate-y-2/3">
+                    <div className="text-white text-2xl font-thin">- Nobody</div>
+                </div>
             </div>
-            {/* <div className="w-[15%] h-auto m-auto p-8 border border-gray-400 justify-start items-start absolute bottom-0 right-0">
-                <div className="text-white text-2xl font-thin">- Nobody</div>
-            </div> */}
-            <ProjectsSum />
-            <Skills />
+
+
+            <div className="hidden md:flex flex-col">
+                <ProjectsSum />
+                <Skills />
+            </div>
         </div>
 
 
