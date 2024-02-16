@@ -51,7 +51,7 @@ const ContactForm: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex gap-5">
+                <div className="flex gap-5 mt-10">
                     <div className="text-indigo-700 text-3xl font-semibold">/</div>
                     <div className="text-white text-3xl font-semibold">socials</div>
                     <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
