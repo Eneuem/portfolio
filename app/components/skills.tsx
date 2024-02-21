@@ -12,10 +12,10 @@ const Skills: React.FC = () => {
 <div className="flex flex-col m-auto mt-20 justify-around w-[76%] py-8 ">
   <div className="flex flex-col mt-10">
     <div className="justify-start items-start flex pb-6 gap-5">
-      <div className="text-indigo-700 text-3xl font-medium">#</div>
-      <div className="text-white text-3xl font-medium">skills</div>
-      <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
-      <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
+      <div className="text-secondary text-3xl font-medium">#</div>
+      <div className="text-primary text-3xl font-medium">skills</div>
+      <div className="hidden md:flex self-center w-96 h-1 bg-secondary"></div>
+      <div className="md:hidden self-center w-10 h-1 bg-secondary"></div>
 
       <div className="justify-self-end inline-flex">
         <Link className="text-white text-base font-medium border border-white p-2 hover:bg-white hover:text-background transition-all" href="/aboutMe" passHref>

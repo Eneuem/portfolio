@@ -11,13 +11,13 @@ const ProjectsSum: React.FC = () => {
             <div className="flex justify-between ">
                 <div className="items-center gap-4 inline-flex ">
                     <div className="items-start flex gap-5">
-                        <div className="text-indigo-700 text-3xl font-medium">#</div>
-                        <div className="text-white text-3xl font-medium">projects</div>
-                        <div className="hidden md:flex self-center" style={{ width: 550, height: 1, background: '#5158BB' }}></div>
-                        <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
+                        <div className="text-secondary text-3xl font-medium">#</div>
+                        <div className="text-primary text-3xl font-medium">projects</div>
+                        <div className="hidden md:flex self-center w-96 h-1 bg-secondary"></div>
+                        <div className="md:hidden self-center w-10 h-1 bg-secondary" ></div>
                     </div>
                     <div className="justify-self-end inline-flex">
-                        <Link className="text-white text-base font-medium border border-white p-2 hover:bg-white hover:text-background transition-all" href="/projects" passHref>
+                        <Link className="text-primary text-base font-medium border border-primary p-2 hover:bg-primary hover:text-background transition-all" href="/projects" passHref>
                             View all
                         </Link>
                     </div>

@@ -12,7 +12,7 @@ interface SmallProject {
 const SmallProjectCard: React.FC<{ project: SmallProject }> = ({ project }) => {
   return (
     <div className="w-96 h-64 border border-gray-400 flex flex-col justify-start items-start">
-      <div className="p-2 flex justify-start items-start gap-2 bg-teal-900 w-full">
+      <div className="p-2 flex justify-start items-start gap-2 w-full">
         {project.technologies.map((tech, index) => (
           <div key={index} className="text-gray-400 text-base font-normal" style={{ whiteSpace: 'pre-wrap' }}>{tech}</div>
         ))}

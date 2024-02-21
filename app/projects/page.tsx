@@ -14,10 +14,10 @@ const Projects: React.FC = () => {
             <div className="flex justify-between ">
                 <div className="items-center gap-4 inline-flex ">
                     <div className="items-start flex gap-5">
-                        <div className="text-indigo-700 text-3xl font-medium ">#</div>
-                        <div className="text-white text-3xl font-medium ">projects</div>
-                        <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
-                        <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
+                        <div className="text-secondary text-3xl font-medium ">#</div>
+                        <div className="text-primary text-3xl font-medium ">projects</div>
+                        <div className="hidden md:flex self-center w-96 h-1 bg-secondary" ></div>
+                        <div className="md:hidden self-center w-10 h-1 bg-secondary" ></div>
                     </div>
             </div>
             </div>
@@ -30,10 +30,10 @@ const Projects: React.FC = () => {
                 <>
                     <div className="items-center gap-4 inline-flex mt-10">
                     <div className="items-start flex gap-5">
-                        <div className="text-indigo-700 text-3xl font-medium ">#</div>
-                        <div className="text-white text-3xl font-medium ">small projects</div>
-                        <div className="hidden md:flex self-center" style={{ width: 580, height: 1, background: '#5158BB' }}></div>
-                        <div className="md:hidden self-center" style={{ width: 25, height: 1, background: '#5158BB' }}></div>
+                        <div className="text-secondary text-3xl font-medium ">#</div>
+                        <div className="text-primary text-3xl font-medium ">small projects</div>
+                        <div className="hidden md:flex self-center w-96 h-1 bg-secondary" ></div>
+                        <div className="md:hidden self-center w-10 h-1 bg-secondary" ></div>
                     </div>
             </div>
                     <div className="mt-10 flex flex-col md:flex-row gap-10">

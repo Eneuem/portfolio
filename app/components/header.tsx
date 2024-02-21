@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   const pathname = usePathname(); 
   const router = useRouter();
 
-  const isActive = (href: string) => pathname === href ? 'text-white' : 'text-secondary hover:text-white';
+  const isActive = (href: string) => pathname === href ? 'text-secondary' : 'text-primary hover:text-secondary';
 
   const handleNavigate = (href: string) => {
     setMenuOpen(false);

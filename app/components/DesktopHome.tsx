@@ -13,11 +13,10 @@ const DesktopHome: React.FC = () => {
             {/* TITLE */}
             <div className="flex justify-between w-[76%] m-auto">
                 <div className="flex flex-col pt-16">
-                    <span className="text-white text-3xl font-semibold">Naïm Chelbat,</span>
-                    <span className="text-indigo-700 text-3xl font-semibold">Front-end developer,</span>
-                    <span className="text-white text-3xl font-light">Brussels</span>
+                    <span className="text-primary text-3xl font-semibold">Naïm Chelbat,</span>
+                    <span className="text-secondary text-3xl font-semibold">Front-end developer,</span>
 
-                    <div className="w-80 text-gray-400 text-base font-normal pt-10">
+                    <div className="w-80 text-primary text-base font-normal pt-10">
                         Making websites from scratch,with a strong afinity for databases, API and web3
                     </div>
                 </div>
@@ -48,22 +47,22 @@ const DesktopHome: React.FC = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="w-96 h-9 p-2 bg-teal-900 border border-gray-400 justify-start items-center gap-2.5 inline-flex">
-                        <div className="w-4 h-4 bg-indigo-700 border border-indigo-700" />
-                        <div><span className="text-gray-400 text-base font-medium">Currently working on </span><span className="text-white text-base font-semibold">Portfolio</span></div>
+                    <div className="w-96 h-9 p-2 border border-primary justify-start items-center gap-2.5 inline-flex">
+                        <div className="w-4 h-4 bg-secondary border border-secondary" />
+                        <div><span className="text-primary text-base font-medium">Currently working on </span><span className="text-primary text-base font-semibold">Portfolio</span></div>
                     </div>
                 </div>
             </div>
             <br />
-            <div className="w-[76%] h-auto m-auto mt-10 p-8 border border-gray-400 flex justify-center items-center gap-2.5 relative">
-                <div className="text-white text-2xl font-medium inline-flex gap-2 items-center"><BiSolidQuoteLeft className="text-xl"/>You should consider hiring Naïm before it’s too late<BiSolidQuoteRight className="text-xl"/><span className="text-sm md:hidden self-end">Nobody</span></div>
-                <div className="hidden bg-teal-900 md:flex w-[15%] h-auto p-2 border border-gray-400 justify-start items-start absolute right-0 md:right-6 bottom-0 translate-y-2/3">
-                    <div className="text-white text-l font-thin flex self-end">- Nobody</div>
+            <div className="w-[76%] h-auto m-auto mt-10 p-8 border border-primary flex justify-center items-center gap-2.5 relative">
+                <div className="text-primary text-2xl font-medium inline-flex gap-2 items-center"><BiSolidQuoteLeft className="text-xl"/>You should consider hiring Naïm before it’s too late<BiSolidQuoteRight className="text-xl"/><span className="text-sm md:hidden self-end">Nobody</span></div>
+                <div className="hidden bg-background md:flex w-[15%] h-auto p-2 border border-primary justify-start items-start absolute right-0 md:right-6 bottom-0 translate-y-2/3">
+                    <div className="text-primary text-l font-thin flex self-end">- Nobody</div>
                 </div>
             </div>
 
 
-            <div className="hidden md:flex flex-col">
+            <div className="flex flex-col">
                 <ProjectsSum />
                 <Skills />
             </div>
