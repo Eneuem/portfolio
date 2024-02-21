@@ -29,7 +29,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
     </div>
   </div>
   <div className="p-4 flex justify-start items-end">
-    <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className={`px-4 py-2 border ${project.status === "Live" ? "border-secondary hover:bg-secondary" : "border-primary"} flex justify-center items-center gap-2.5 text-${project.status === "Live" ? "white" : "secondary"} text-base font-medium`}>
+    <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className={`px-4 py-2 border ${project.status === "Live" ? "border-secondary hover:bg-secondary hover:text-background" : "border-primary"} flex justify-center items-center gap-2.5 text-${project.status === "Live" ? "primary" : "secondary"} text-base font-medium`}>
       {project.status}
     </a>
   </div>
