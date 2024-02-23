@@ -6,6 +6,7 @@ import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { AiOutlineCopyright } from "react-icons/ai";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -34,7 +35,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </div>
-      <div className="w-full flex justify-center items-center text-primary text-base font-normal gap-2">© {currentYear}. Made with <TbBrandNextjs className="text-2xl"/></div>
+      <div className="w-full flex justify-center items-center text-primary text-base font-normal gap-2 mb-4"><AiOutlineCopyright className="text-2xl"/> {currentYear} | Made with <TbBrandNextjs className="text-2xl"/></div>
     </footer>
   );
 };

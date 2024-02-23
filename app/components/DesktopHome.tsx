@@ -28,26 +28,26 @@ const DesktopHome: React.FC = () => {
                     <div className="w-14 h-14 left-[280.62px] top-[300.75px] absolute flex-col justify-between items-start inline-flex">
                         <div className="self-stretch justify-between items-start inline-flex">
                             {Array(5).fill(null).map((_, index) => (
-                                <div key={index} className="w-1 h-1 bg-black" />
+                                <div key={index} className="w-1 h-1 bg-primary opacity-65" />
                             ))}
                         </div>
                         <div className="self-stretch justify-between items-start inline-flex">
                             {Array(5).fill(null).map((_, index) => (
-                                <div key={index} className="w-1 h-1 bg-black" />
+                                <div key={index} className="w-1 h-1 bg-primary opacity-65" />
                             ))}
                         </div>
                         <div className="self-stretch justify-between items-start inline-flex">
                             {Array(5).fill(null).map((_, index) => (
-                                <div key={index} className="w-1 h-1 bg-black" />
+                                <div key={index} className="w-1 h-1 bg-primary opacity-65" />
                             ))}
                         </div>
                         <div className="self-stretch justify-between items-start inline-flex">
                             {Array(5).fill(null).map((_, index) => (
-                                <div key={index} className="w-1 h-1 bg-black" />
+                                <div key={index} className="w-1 h-1 bg-primary opacity-65" />
                             ))}
                         </div>
                     </div>
-                    <div className="w-96 h-9 p-2 border border-primary justify-start items-center gap-2.5 inline-flex">
+                    <div className="w-96 hidden marker: h-9 p-2 border border-primary justify-start items-center gap-2.5 md:inline-flex">
                         <div className="w-4 h-4 bg-secondary border border-secondary" />
                         <div><span className="text-primary text-base font-medium">Currently working on </span><span className="text-primary text-base font-semibold">Portfolio</span></div>
                     </div>

@@ -21,11 +21,12 @@ const Projects: React.FC = () => {
                     </div>
             </div>
             </div>
-
+            <div className="flex">
             <div className="mt-10 flex flex-wrap gap-10">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
+            </div>
             </div>
                 <>
                     <div className="items-center gap-4 inline-flex mt-10">
@@ -36,7 +37,7 @@ const Projects: React.FC = () => {
                         <div className="md:hidden self-center w-10 h-1 bg-secondary" ></div>
                     </div>
             </div>
-                    <div className="mt-10 flex flex-col md:flex-row gap-10">
+                    <div className="mt-10 flex flex-col gap-10">
                         {/* Affichage des SmallProjectCard */}
                         {SmallProjects.map((project, index) => (
                             <SmallProjectCard key={`small-${index}`} project={project} />

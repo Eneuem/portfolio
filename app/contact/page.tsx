@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { SiDiscord } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaBtc } from "react-icons/fa6";
@@ -21,7 +22,10 @@ const ContactForm: React.FC = () => {
                     <div className="md:hidden self-center w-10 h-1 bg-secondary"></div>
                 </div>
                 <div className="flex flex-col md:flex-row gap-2 w-[100%]">
-                    <div className="flex text-primary text-base items-start font-medium pt-6 w-auto">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</div>
+                    <div className="flex-col text-primary text-base items-start font-medium pt-6 w-auto">
+                        I’m interested in freelance or interneship opportunities. However, if you have other request or question, don’t hesitate to contact me
+                        <Image src="/mobileHands.png" alt="Mobile Hands" width={150} height={150} className="object-contain m-auto"/>
+                    </div>
                     <div className="w-auto h-auto flex flex-col">
                         <div className="w-auto h-auto p-4 border border-primary flex-col justify-start items-start gap-2 inline-flex mt-1">
                             <div className="text-primary text-base font-medium">Message me here</div>
