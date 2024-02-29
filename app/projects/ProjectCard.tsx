@@ -15,7 +15,7 @@ interface Project {
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
-<div className="flex flex-col justify-between border border-primary w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
+<div className="flex flex-col justify-between border border-primary w-full">
   <div>
     <Image width={384} height={250} className="border-b border-primary" src={project.imageUrl} alt={project.title} />
     <div className="p-2 flex justify-start items-start gap-2">
