@@ -23,7 +23,7 @@ const ProjectsSum: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-10 flex flex-col md:flex-row gap-10 flex-wrap">
+            <div className="mt-10 flex flex-col md:flex-row gap-10">
                 {projects.slice(0, 3).map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
