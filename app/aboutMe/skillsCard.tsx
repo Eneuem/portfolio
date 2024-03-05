@@ -8,7 +8,7 @@ interface SkillCardProps {
 }
 const SkillSection: React.FC<SkillCardProps> = ({ title, skills }) => {
   return (
-    <div className="w-auto h-auto border border-primary flex-col justify-start items-start gap-2">
+    <div className="w-full md:w-52 h-auto border border-primary flex-col justify-start items-start gap-2">
       <div className="p-2 justify-start items-start border-b border-primary">
         <div className="text-primary text-base font-semibold ">{title}</div>
       </div>

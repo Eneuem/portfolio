@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
       </div>
     </div>
   </div>
-  <div className="flex-col md:w-auto md:flex-row justify-start gap-4 inline-flex">
+  <div className="flex-col w-full md:w-auto md:flex-row justify-start gap-4 inline-flex">
     <SkillSection title="Languages" skills={skillsData.languages} />
     <SkillSection title="Databases" skills={skillsData.databases} />
     <SkillSection title="Frameworks" skills={skillsData.frameworks} />
