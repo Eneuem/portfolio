@@ -23,7 +23,7 @@ const ContactForm: React.FC = () => {
                 </div>
                 <div className="flex flex-col md:flex-row gap-2 w-[100%]">
                     <div className="flex-col text-primary text-base items-start font-medium pt-6 w-auto">
-                        I’m interested in freelance or interneship opportunities. However, if you have other request or question, don’t hesitate to contact me
+                        I’m interested in freelance or job opportunities. However, if you have other request or question, don’t hesitate to contact me
                         <Image src="/mobileHands.png" alt="Mobile Hands" width={150} height={150} className="object-contain m-auto"/>
                     </div>
                     <div className="w-auto h-auto flex flex-col">
