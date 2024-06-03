@@ -6,6 +6,7 @@ import ProjectsSum from '../components/projects';
 import Skills from '../components/skills';
 import { BiSolidQuoteLeft } from "react-icons/bi";
 import { BiSolidQuoteRight } from "react-icons/bi";
+import Typewriter from 'typewriter-effect'; 
 
 const DesktopHome: React.FC = () => {
     return (
@@ -17,7 +18,13 @@ const DesktopHome: React.FC = () => {
                     <span className="text-secondary text-3xl font-semibold">Front-end developer,</span>
 
                     <div className="w-80 text-primary text-base font-normal pt-10">
-                        Making websites from scratch,with a strong afinity for databases, API and web3
+                        <Typewriter
+                        options={{
+                            strings: ['Making websites from scratch,with a strong afinity for databases, API and web3' , 'I keep learning everyday !'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                        />
                     </div>
                 </div>
                 {/* IMAGE */}
