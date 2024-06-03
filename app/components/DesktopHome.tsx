@@ -20,7 +20,7 @@ const DesktopHome: React.FC = () => {
                     <div className="w-80 text-primary text-base font-normal pt-10">
                         <Typewriter
                         options={{
-                            strings: ['Making websites from scratch,with a strong afinity for databases, API and web3' , 'I keep learning everyday !'],
+                            strings: ['Making websites from scratch,with a strong afinity for databases, API and web3' , 'Still learning, everyday !'],
                             autoStart: true,
                             loop: true,
                         }}
