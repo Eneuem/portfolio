@@ -56,7 +56,8 @@ const DesktopHome: React.FC = () => {
                     </div>
                     <div className="w-96 hidden marker: h-9 p-2 border border-primary justify-start items-center gap-2.5 md:inline-flex">
                         <div className="w-4 h-4 bg-secondary border border-secondary" />
-                        <div><span className="text-primary text-base font-medium">Currently on an</span><span className="text-primary text-base font-semibold"> Internship</span></div>
+                        <div>
+                        <span className="text-primary text-base font-medium">Currently working</span><a href="https://www.cf2m.be" target="_blank" className="text-primary text-base font-semibold"> as a Teacher</a></div>
                     </div>
                 </div>
             </div>
