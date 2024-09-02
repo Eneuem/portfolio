@@ -15,7 +15,7 @@ const DesktopHome: React.FC = () => {
             <div className="flex justify-between w-[76%] m-auto">
                 <div className="flex flex-col pt-16">
                     <span className="text-primary text-3xl font-semibold">Naïm Chelbat,</span>
-                    <span className="text-secondary text-3xl font-semibold">Front-end developer,</span>
+                    <span className="text-secondary text-3xl font-semibold">Full-stack developer,</span>
 
                     <div className="w-80 text-primary text-base font-normal pt-10">
                         <Typewriter
