@@ -20,7 +20,13 @@ const About: React.FC = () => {
               <div className="md:hidden self-center w-10 h-1 bg-secondary"></div>
             </div>
             <div className="text-primary text-base font-normal leading-relaxed">
-              Hello, i’m Naïm!<br /><br />I use to make website as a kid. I discovered HTML CSS and php shortly after to dev my own Warhammer & LOTR fan-pages. <br /><br />Since then, I never stopped learning and making website from scratch or with Wordpress, Wix, and others tools. In 2023 I started an intensive learning at Ecole 19 then at BeCode where I learned a lot about Frameworks, Databases & API.
+              Hello, i’m Naïm!
+              <br /><br />
+              I use to make website as a kid. I discovered HTML CSS and php shortly after to dev my own personnal pages & blogs. 
+              <br /><br />
+              Since then, I never stopped learning and making website from scratch or with Wordpress, Wix, and others tools. In 2023 I started an intensive learning at Ecole 19 then at BeCode where I learned a lot about Frameworks, Databases & API.
+              <br /><br />
+              I even spent a few months teaching web development to adults in a non-profit organization in Brussels.            
             </div>
           </div>
           <div className="hidden md:flex md:justify-end md:flex-shrink-0">
