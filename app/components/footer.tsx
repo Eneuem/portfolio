@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/Eneuem">
           <SiGithub className="hover:scale-125 text-primary" />
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/file/3I2CyhhwdhvfqYqDpcFofM/ARTISTORY?type=design&node-id=0%3A1&mode=design&t=FA1s6nW1Jjvia5Rp-1">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/design/SCgkcaoQgTk8mThRdlbR47/BEESBOOST?node-id=0-1&t=ZbfhZHpiQrIPHphe-1">
           <SiFigma className="hover:scale-125 text-primary" />
           </a>
         </div>
