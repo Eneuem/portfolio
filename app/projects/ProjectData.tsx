@@ -52,12 +52,5 @@
             description : "Contributor - Wordpress layout & configuration",
             technologies : ["Wordpress", "Plugins", "CSS"],
             projectUrl : "https://cryptobel.org"
-        },
-        {
-            title : "Radio Rado",
-            description : "Main dev, setting up the web radio & the website",
-            technologies : ["Azuracast", "Docker", "More to come"],
-            projectUrl : "http://188.166.85.204/public/radio_rado"
         }
-
     ]
